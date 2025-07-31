@@ -790,7 +790,7 @@ export default function Home() {
                   <div className="bg-white mb-5">
                     <a href="">
                       <div className="overflow-hidden relative lg:h-auto">
-                        <img className="w-full h-auto max-w-full min-h-full object-cover align-middle border-none" src="/sports-news-1.jpg" alt="" />
+                        <Image height={250} width={400} className="w-full h-auto max-w-full min-h-full object-cover align-middle border-none" src="/sports-news-1.jpg" alt="" />
                       </div>
                       <div className="px-[8px] py-[5px] h-[60px] overflow-hidden">
                         <h3 className="text-[1.1em] leading-[25px] font-bold">জাতীয় দলের বাইরে রিসোর্স কম, মনে করিয়ে দিলেন সালাউদ্দিন</h3>

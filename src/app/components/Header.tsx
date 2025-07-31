@@ -60,8 +60,8 @@ const Header = () => {
             <GiHamburgerMenu />
           </button>
           <div className="flex items-center mr-5">
-            <a href="https://www.risingbd.com/">
-              <Image width={100} height={50} src="/logo.webp" alt="Logo" />
+            <a href="#">
+              <Image width={100} height={50} src="/11.png" alt="Logo" />
             </a>
           </div>
           <div className="block md:hidden">

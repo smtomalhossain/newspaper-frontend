@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface LifeStyleCardProps {
     title:string;
     image:string;
@@ -9,7 +11,7 @@ const LifeStyleCard:React.FC<LifeStyleCardProps> = ({title, image}) => {
             <a href="">
                 <div className="w-full ">
                     <div className="relative overflow-hidden xl:h-auto sm">
-                        <img className="max-w-full min-h-full object-cover w-full h-auto align-middle border-none" src={image} alt="Your image" />
+                        <Image width={400} height={250} className="max-w-full min-h-full object-cover w-full h-auto align-middle border-none" src={image} alt="Your image" />
                         <h3 className="hidden caption px-[10px] py-[7px] text-white md:block ">{title}</h3>
 
                     </div>
